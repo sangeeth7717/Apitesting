@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="TestRunner-1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestngusingBaseclass.createOrgWithBaseClassTest">
+        <methods>
+          <include name="bsconfig"/>
+          <include name="acconfig"/>
+          <include name="createOrgWithBaseclass"/>
+          <include name="asconfig"/>
+          <include name="bcconfig"/>
+          <include name="amconfig"/>
+          <include name="bmconfig"/>
+        </methods>
+      </class> <!-- TestngusingBaseclass.createOrgWithBaseClassTest -->
+      <class name="TestngusingBaseclass.createContactwithBaseClassTest">
+        <methods>
+          <include name="bsconfig"/>
+          <include name="acconfig"/>
+          <include name="asconfig"/>
+          <include name="bcconfig"/>
+          <include name="amconfig"/>
+          <include name="bmconfig"/>
+          <include name="createContactWithBaseclass"/>
+        </methods>
+      </class> <!-- TestngusingBaseclass.createContactwithBaseClassTest -->
+    </classes>
+  </test> <!-- TestRunner-1(failed) -->
+  <test thread-count="2" parallel="tests" name="TestRunner-2(failed)">
+    <parameter name="browser" value="firfox"/>
+    <classes>
+      <class name="TestngusingBaseclass.createOrgWithBaseClassTest">
+        <methods>
+          <include name="bsconfig"/>
+          <include name="acconfig"/>
+          <include name="createOrgWithBaseclass"/>
+          <include name="asconfig"/>
+          <include name="bcconfig"/>
+          <include name="amconfig"/>
+          <include name="bmconfig"/>
+        </methods>
+      </class> <!-- TestngusingBaseclass.createOrgWithBaseClassTest -->
+    </classes>
+  </test> <!-- TestRunner-2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
